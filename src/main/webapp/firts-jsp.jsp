@@ -18,6 +18,6 @@
 <h1>Hello from <%= name %></h1>
 <h1>15 + 15 = <%= 15 + 15 %></h1>
 <h1>Count: <%=count++%></h1>
-
+<%@include file="login-form.html"%>
 </body>
 </html>
