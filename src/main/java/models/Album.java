@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 
 
-public class Album implements Serializable{
+public class Album implements Serializable {
 
     private long id;
     private String artist;
@@ -14,7 +14,10 @@ public class Album implements Serializable{
     private String genre;
 
 
-    public Album(){};
+    public Album() {
+    }
+
+    ;
 
     public Album(long id, String artist, String title, int release_date, double sales, String genre) {
         this.id = id;
@@ -71,5 +74,17 @@ public class Album implements Serializable{
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "id=" + id +
+                ", artist='" + artist + '\'' +
+                ", name='" + title + '\'' +
+                ", releaseDate=" + release_date +
+                ", sales=" + sales +
+                ", genre='" + genre + '\'' +
+                '}';
     }
 }
