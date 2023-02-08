@@ -11,6 +11,7 @@
     <title>User Profile</title>
 </head>
 <body>
-<h1>Viewing the profile page</h1>
+<h1>Viewing the profile page.</h1>
 </body>
 </html>
+
